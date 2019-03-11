@@ -6,7 +6,7 @@ image_config: &image_config
 
   IMAGE_NAME: ruby
 
-  IMAGE_TAG: 2.5.3-node-browsers-legacy
+  IMAGE_TAG: 2.5.3-node-8.12.0-browsers-legacy
 
   # NOTE: if you're modifying this config.yml file manually
   # rather than using the included setup script,
@@ -17,7 +17,7 @@ image_config: &image_config
 
   RUBY_VERSION_NUM: 2.5.3
 
-  NODE_VERSION_NUM: 10.15.1
+  NODE_VERSION_NUM: 8.12.0
 
   # PYTHON_VERSION_NUM: # pick a version from https://python.org/ftp/python
 

@@ -54,7 +54,7 @@ jobs:
 
   test_image:
     docker:
-      - image: $DOCKER_ORG/ruby:2.5.3-node-browsers-legacy
+      - image: $DOCKER_ORG/ruby:2.5.3-node-10.15.1-browsers-legacy
         environment:
           <<: *image_config
 
